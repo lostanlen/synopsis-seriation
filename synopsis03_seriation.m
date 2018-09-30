@@ -1,6 +1,6 @@
 tic();
 load('/beegfs/vl1019/synopsis_seriation_data/channel_changepoints.mat');
-mkdir('/beegfs/vl1019/synopsis_seriation_data/', 'permutations');
+mkdir('/beegfs/vl1019/synopsis_seriation_data/permutations');
 
 %% Compute summary statistics (average) for each segment
 % Left segments correspond to channels 1 to 6
@@ -79,8 +79,8 @@ while (n < n_iterations)
 
     if mod(n, 1) == 0
         mkdir( ...
-            '/beegfs/vl1019/synopsis_seriation_data/permutations', ...
-            fprintf('permutations_trial-%04d', trial_id));
+            ['/beegfs/vl1019/synopsis_seriation_data/permutations/', ...
+            fprintf('permutations_trial-%04d', trial_id)]);
         save(fprintf([ ...
             '/beegfs/vl1019/synopsis_seriation_data/permutation/permutations_trial-%03d/', ...
             'permutations_trial-%03d_it-%04d%.mat'], trial_id, n));
