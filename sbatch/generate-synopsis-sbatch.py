@@ -11,6 +11,7 @@ for trial_id in range(n_trials):
         ["../../synopsis03_seriation.m", str(trial_id)]);
     job_name = "-".join(["synopsis_03_trial", str(trial_id).zfill(3)])
     file_name = job_name + ".sbatch"
+    sbatch_dir = "sbatch"
     file_path = os.path.join(sbatch_dir, file_name)
     with open(file_path, "w") as f:
         f.write("#!/bin/bash\n")
