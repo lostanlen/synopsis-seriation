@@ -5,6 +5,11 @@ import sys
 n_trials = 100
 
 
+# Create folders.
+os.makedirs('sbatch', exist_ok=True)
+os.makedirs('slurm', exist_ok=True)
+
+
 # Loop over recording units.
 for trial_id in range(n_trials):
     script_path_with_args = " ".join(
