@@ -37,7 +37,7 @@ for trial_id in range(n_trials):
 
 
 # Open shell file.
-file_path = os.path.join(sbatch_dir, script_name[:3] + ".sh")
+file_path = os.path.join(sbatch_dir, "synopsis_03.sh")
 with open(file_path, "w") as f:
     # Print header
     f.write("# This shell script executes all Slurm jobs" +\
