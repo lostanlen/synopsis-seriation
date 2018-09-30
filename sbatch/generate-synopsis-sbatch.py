@@ -33,7 +33,6 @@ for trial_id in range(n_trials):
         f.write("module purge\n")
         f.write("\n")
         f.write("# The argument is the name of the recording unit.\n")
-        f.write("matlab " + script_path_with_args)
         f.write("matlab -nosplash -nodesktop -nodisplay -r " +
             "\"trial_id = \'" + str(trial_id) + "\'; " +
             "addpath(genpath(\'~/scattering.m\')); " +
