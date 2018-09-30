@@ -1,10 +1,6 @@
 import os
 import sys
 
-sys.path.append("../src")
-import localmodule
-
-
 # Define constants.
 n_trials = 100
 
