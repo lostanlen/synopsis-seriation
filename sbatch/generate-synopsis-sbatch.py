@@ -31,6 +31,7 @@ for trial_id in range(n_trials):
             "../slurm/" + job_name + "_%j.out\n")
         f.write("\n")
         f.write("module purge\n")
+        f.write("module load matlab/2018b\n")
         f.write("\n")
         f.write("# The argument is the name of the recording unit.\n")
         f.write("matlab -nosplash -nodesktop -nodisplay -r " +
