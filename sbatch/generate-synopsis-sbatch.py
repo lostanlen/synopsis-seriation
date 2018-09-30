@@ -35,7 +35,7 @@ for trial_id in range(n_trials):
         f.write("\n")
         f.write("# The argument is the name of the recording unit.\n")
         f.write("matlab -nosplash -nodesktop -nodisplay -r " +
-            "\"trial_id = \'" + str(trial_id) + "\'; " +
+            "\"trial_id = " + str(trial_id) + "; " +
             "addpath(genpath(\'~/scattering.m\')); " +
             "run('../../synopsis03_seriation.m');\"")
 
