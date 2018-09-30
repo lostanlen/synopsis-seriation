@@ -13,13 +13,13 @@ n_trials = 100
 for trial_id in range(n_trials):
     script_path_with_args = " ".join(
         ["../../synopsis03_seriation.m", str(trial_id)]);
-    job_name = "_".join([script_name[:3], unit_str])
+    job_name = "-".join(["synopsis_03_trial", str(trial_id).zfill(3)])
     file_name = job_name + ".sbatch"
     file_path = os.path.join(sbatch_dir, file_name)
     with open(file_path, "w") as f:
         f.write("#!/bin/bash\n")
         f.write("\n")
-        f.write("#BATCH --job-name=" + script_name[:3] + "\n")
+        f.write("#BATCH --job-name=" + job_name + "\n")
         f.write("#SBATCH --nodes=1\n")
         f.write("#SBATCH --tasks-per-node=1\n")
         f.write("#SBATCH --cpus-per-task=1\n")
@@ -45,8 +45,7 @@ with open(file_path, "w") as f:
     # Loop over recording units.
     for trial_id in range(n_trials):
         # Define job name.
-        trial-str = "trial-" + str(trial_id).zfill(3)
-        job_name = "_".join([, unit_str])
+        job_name = "-".join(["synopsis_03_trial", str(trial_id).zfill(3)])
         sbatch_str = "sbatch " + job_name + ".sbatch"
         # Write SBATCH command to shell file.
         f.write(sbatch_str + "\n")
