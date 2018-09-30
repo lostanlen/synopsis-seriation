@@ -1,0 +1,4 @@
+  File "../../synopsis03_seriation.m", line 5
+    %% Compute summary statistics (average) for each segment
+    ^
+SyntaxError: invalid syntax
