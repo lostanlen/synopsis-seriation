@@ -9,6 +9,7 @@
 #SBATCH --output=../slurm/synopsis_03_trial-095_%j.out
 
 module purge
+module load matlab/2018b
 
 # The argument is the name of the recording unit.
-matlab ../../synopsis03_seriation.m 95matlab -nosplash -nodesktop -nodisplay -r "trial_id = '95'; addpath(genpath('~/scattering.m')); run('../synopsis03_seriation.m');"
+matlab -nosplash -nodesktop -nodisplay -r "trial_id = '95'; addpath(genpath('~/scattering.m')); run('../../synopsis03_seriation.m');"
