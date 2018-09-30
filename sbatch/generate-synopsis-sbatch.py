@@ -37,7 +37,7 @@ for trial_id in range(n_trials):
         f.write("matlab -nosplash -nodesktop -nodisplay -r " +
             "\"trial_id = \'" + str(trial_id) + "\'; " +
             "addpath(genpath(\'~/scattering.m\')); " +
-            "run('../synopsis03_seriation.m');\"")
+            "run('../../synopsis03_seriation.m');\"")
 
 
 # Open shell file.
