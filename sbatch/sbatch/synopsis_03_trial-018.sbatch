@@ -12,4 +12,4 @@ module purge
 module load matlab/2018b
 
 # The argument is the name of the recording unit.
-matlab -nosplash -nodesktop -nodisplay -r "trial_id = '18'; addpath(genpath('~/scattering.m')); run('../../synopsis03_seriation.m');"
+matlab -nosplash -nodesktop -nodisplay -r "trial_id = 18; addpath(genpath('~/scattering.m')); run('../../synopsis03_seriation.m');"
