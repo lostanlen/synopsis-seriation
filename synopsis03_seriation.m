@@ -1,6 +1,6 @@
 tic();
-load('data/channel_changepoints.mat');
-mkdir('data', 'permutations');
+load('/beegfs/vl1019/synopsis_seriation_data/channel_changepoints.mat');
+mkdir('/beegfs/vl1019/synopsis_seriation_data/', 'permutations');
 
 %% Compute summary statistics (average) for each segment
 % Left segments correspond to channels 1 to 6
@@ -12,7 +12,7 @@ for channel_id = 1:12
     scattering_name = ['Synopsis_scattering_ch-', ...
         sprintf('%0.2d', channel_id), '.mat'];
     load( ...
-        ['~/synopsis-seriation/data/scattering_transforms/', scattering_name]);
+        ['/beegfs/vl1019/synopsis_seriation_data/scattering_transforms/', scattering_name]);
     X = bsxfun(@rdivide, X, sum(X, 1));
     [n_features, n_frames] = size(X);
     changepoints = ...
@@ -79,10 +79,10 @@ while (n < n_iterations)
 
     if mod(n, 1) == 0
         mkdir( ...
-            '~/synopsis-seriation/data/permutations', ...
+            '/beegfs/vl1019/synopsis_seriation_data/permutations', ...
             fprintf('permutations_trial-%04d', trial_id));
         save(fprintf([ ...
-            '~/synopsis-seriation/data/permutations/permutations_trial-%03d/', ...
+            '/beegfs/vl1019/synopsis_seriation_data/permutation/permutations_trial-%03d/', ...
             'permutations_trial-%03d_it-%04d%.mat'], trial_id, n));
         toc();
         tic();
