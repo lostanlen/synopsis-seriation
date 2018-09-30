@@ -26,7 +26,7 @@ for trial_id in range(n_trials):
         f.write("#SBATCH --tasks-per-node=1\n")
         f.write("#SBATCH --cpus-per-task=1\n")
         f.write("#SBATCH --time=0:05:00\n")
-        f.write("#SBATCH --mem=4GB\n")
+        f.write("#SBATCH --mem=8GB\n")
         f.write("#SBATCH --output=" +\
             "../slurm/" + job_name + "_%j.out\n")
         f.write("\n")
