@@ -47,7 +47,7 @@ rng(trial_id);
 disp(trial_id);
 mkdir( ...
     ['/beegfs/vl1019/synopsis_seriation_data/permutations/', ...
-    fprintf('permutations_trial%03d', trial_id)]);
+    sprintf('permutations_trial%03d', trial_id)]);
 s_left = randperm(length(X_left));
 s_right = randperm(length(X_right));
 
