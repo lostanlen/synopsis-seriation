@@ -51,7 +51,7 @@ mkdir( ...
 s_left = randperm(length(X_left));
 s_right = randperm(length(X_right));
 
-n_iterations = 100;
+n_iterations = 10000;
 history = zeros(1, n_iterations);
 n = 0;
 
@@ -77,7 +77,7 @@ while (n < n_iterations)
         s_left = alt_s_left;
         s_right = alt_s_right;
         objective = alt_objective;
-        fprintf('%03d %4.3f\n', n, objective);
+        fprintf('%05d %4.3f\n', n, objective);
     end
 
     if mod(n, 100) == 0
