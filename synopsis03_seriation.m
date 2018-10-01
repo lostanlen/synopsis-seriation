@@ -77,7 +77,6 @@ while (n < n_iterations)
         s_left = alt_s_left;
         s_right = alt_s_right;
         objective = alt_objective;
-        fprintf('%05d %4.3f\n', n, objective);
     end
 
     if mod(n, 100) == 0
@@ -91,6 +90,7 @@ while (n < n_iterations)
             '/beegfs/vl1019/synopsis_seriation_data/permutations/permutations_trial%03d/', ...
             'permutations_trial%03d_it%05d.mat'], trial_id, trial_id, n), ...
             'S', '-v7.3');
+        fprintf('%05d %4.3f\n', n, objective);
         toc();
         tic();
     end
