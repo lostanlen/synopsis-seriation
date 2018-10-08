@@ -4,8 +4,8 @@
 #SBATCH --nodes=1
 #SBATCH --tasks-per-node=1
 #SBATCH --cpus-per-task=1
-#SBATCH --time=0:05:00
-#SBATCH --mem=4GB
+#SBATCH --time=36:00:00
+#SBATCH --mem=8GB
 #SBATCH --output=../slurm/synopsis_03_trial-074_%j.out
 
 module purge
