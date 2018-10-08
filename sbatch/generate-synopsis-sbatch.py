@@ -2,7 +2,7 @@ import os
 import sys
 
 # Define constants.
-n_trials = 100
+n_trials = 200
 
 
 # Create folders.
