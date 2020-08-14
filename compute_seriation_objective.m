@@ -1,5 +1,5 @@
 function objective = compute_seriation_objective( ...
-    s_left, s_right, X_left, X_right, X_tensor)
+    s_left, s_right, X_left, X_right, X_tensor, stereo_objective_weight)
 
 n_features = size(X_tensor, 1);
 n_frames = size(X_tensor, 2);
@@ -61,5 +61,6 @@ Xhat_right_jensen_shannon = ...
 Xhat_right_jensen_shannon(isnan(Xhat_right_jensen_shannon)) = 0;
 right_objective = 0.5 * sum(Xhat_right_jensen_shannon(:));
 
-objective = stereo_objective  + left_objective + right_objective;
+objective = stereo_objective_weight*stereo_objective + ...
+    left_objective + right_objective;
 end

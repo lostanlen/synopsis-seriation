@@ -1,10 +1,14 @@
+% Export to same sampling rate (float32 @ 48 kHz)
+% Export segments with seriated location as suffix
+% Remove silence segments
+
 addpath(genpath('~/scattering.m'));
 Q1 = 12;
-N = 2^17;
+N = 2^14;
 
 
 %% Load and pad signal.
-[y, fs] = audioread(['/scratch/vl1019/dafx2018_data/original_waveforms/', ...
+[y, fs] = audioread(['original_waveforms/', ...
     'Synopsis_Seriation_dataset_Synopsis_Seriation_', ...
     int2str(channel_id), '.wav']);
 
@@ -25,7 +29,7 @@ opts{1}.time.T = N;
 opts{1}.time.max_scale = Inf;
 opts{1}.time.size = N;
 opts{1}.time.is_chunked = false;
-opts{1}.time.gamma_bounds = [1 Q1*16];
+opts{1}.time.gamma_bounds = [1 Q1*8];
 opts{1}.time.wavelet_handle = @morlet_1d;
 
 opts{2}.time.nFilters_per_octave = 1;
