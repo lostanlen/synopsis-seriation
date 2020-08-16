@@ -5,6 +5,8 @@ data_dir = sav_data_dir;
 mkdir([data_dir, 'permutations']);
 load([data_dir, 'channel_changepoints_entropy-11bit.mat']);
 data_dir = sav_data_dir;
+load([data_dir, 'curly_initialization.mat']);
+data_dir = sav_data_dir;
 load([data_dir, 'permutations_v1.mat']);
 data_dir = sav_data_dir;
 stereo_objective_weight = 100;
@@ -55,8 +57,8 @@ disp(trial_id);
 mkdir( ...
     [data_dir, '/permutations_v2/', ...
     sprintf('permutations_v2_trial%03d', trial_id)]);
-s_left = randperm(length(X_left));
-s_right = randperm(length(X_right));
+s_left = S.s_left;
+s_right = S.s_right;
 
 n_iterations = 100000;
 history = zeros(1, n_iterations);
