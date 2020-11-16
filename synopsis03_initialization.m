@@ -6,8 +6,8 @@ data_dir = '/Users/vl238/synopsis_seriation_data/';
 %mkdir([data_dir, 'permutations']);
 
 %% Compute summary statistics (average) for each segment
-% Left segments correspond to channels 1 to 6
-% Right segments correspond to channels 7 to 12
+% Left segments correspond to odd channels
+% Right segments correspond to even channels
 
 X_channels = cell(1, 12);
 X_frames = cell(1, 12);
@@ -52,8 +52,8 @@ end
 
 
 %%
-X_left = [X_channels{1:6}];
-X_right = [X_channels{7:12}];
+X_left = [X_channels{1:2:11}];
+X_right = [X_channels{2:2:12}];
 
 X_left = [X_left.X];
 X_right = [X_right.X];
@@ -81,8 +81,8 @@ right_route = ...
     resultStruct.optRoute(resultStruct.optRoute > size(X_left, 2)) - ...
     size(X_left, 2);
 
-X_left = [X_channels{1:6}];
-X_right = [X_channels{7:12}];
+X_left = [X_channels{1:2:11}];
+X_right = [X_channels{2:2:12}];
 
 seriated_X_left = X_left(left_route);
 seriated_X_right = X_right(right_route);
@@ -96,7 +96,7 @@ save('curly_initialization.mat', 'resultStruct', ...
 entropy = 11;
 disp(entropy);
 entropy_str = sprintf('%02d', entropy);
-load(fullfile(data_dir, ['channel-changepoints_entropy-', entropy_str, 'bit.mat']));
+load(fullfile(data_dir, ['channel_changepoints_entropy-', entropy_str, 'bit.mat']));
 
 %%
 N = 2^17;
@@ -104,7 +104,7 @@ hop_length = N/2;
 
 in_folder = fullfile([data_dir, '/original_waveforms/']);
 out_folder = fullfile([data_dir, '/curly_initialization/']);
-synopsis_prefix = 'Synopsis_Seriation_v2_';
+synopsis_prefix = 'Synopsis_Seriation_v4_';
 
 
 
