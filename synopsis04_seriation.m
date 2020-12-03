@@ -10,8 +10,8 @@ data_dir = sav_data_dir;
 stereo_objective_weight = 100;
 
 %% Compute summary statistics (average) for each segment
-% Left segments correspond to channels 1 to 6
-% Right segments correspond to channels 7 to 12
+% Left segments correspond to odd-numbered channel
+% Right segments correspond to even-numbered channels
 
 X_channels = cell(1, 12);
 X_frames = cell(1, 12);
