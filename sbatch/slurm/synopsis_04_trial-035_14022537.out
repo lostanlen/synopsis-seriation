@@ -1,0 +1,802 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2018 The MathWorks, Inc.
+                   R2018b (9.5.0.944444) 64-bit (glnxa64)
+                              August 28, 2018
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+[Warning: Directory already exists.] 
+[> In synopsis04_seriation (line 5)
+  In run (line 91)] 
+    35
+
+00000 114223.445
+Elapsed time is 25.899901 seconds.
+00100 108068.076
+Elapsed time is 887.405566 seconds.
+00200 105409.059
+Elapsed time is 902.938498 seconds.
+00300 105055.771
+Elapsed time is 900.339066 seconds.
+00400 103851.269
+Elapsed time is 900.730573 seconds.
+00500 102601.241
+Elapsed time is 896.596122 seconds.
+00600 102431.242
+Elapsed time is 899.205406 seconds.
+00700 101908.333
+Elapsed time is 899.012881 seconds.
+00800 101067.824
+Elapsed time is 899.614132 seconds.
+00900 100761.911
+Elapsed time is 897.688399 seconds.
+01000 99377.007
+Elapsed time is 900.397828 seconds.
+01100 99205.683
+Elapsed time is 890.036601 seconds.
+01200 98521.904
+Elapsed time is 883.246673 seconds.
+01300 98478.455
+Elapsed time is 871.131015 seconds.
+01400 98180.005
+Elapsed time is 869.530684 seconds.
+01500 97940.349
+Elapsed time is 869.863111 seconds.
+01600 97469.138
+Elapsed time is 870.765262 seconds.
+01700 96781.057
+Elapsed time is 870.311391 seconds.
+01800 96515.602
+Elapsed time is 872.412634 seconds.
+01900 96344.199
+Elapsed time is 874.599117 seconds.
+02000 95925.923
+Elapsed time is 875.001462 seconds.
+02100 95852.571
+Elapsed time is 877.947873 seconds.
+02200 95706.124
+Elapsed time is 873.172040 seconds.
+02300 95502.603
+Elapsed time is 874.330335 seconds.
+02400 95079.441
+Elapsed time is 874.848374 seconds.
+02500 95079.441
+Elapsed time is 879.005946 seconds.
+02600 94722.612
+Elapsed time is 875.073098 seconds.
+02700 94676.810
+Elapsed time is 876.355978 seconds.
+02800 94658.665
+Elapsed time is 878.443956 seconds.
+02900 94254.868
+Elapsed time is 874.006259 seconds.
+03000 94173.800
+Elapsed time is 873.920618 seconds.
+03100 94000.051
+Elapsed time is 877.288494 seconds.
+03200 93775.380
+Elapsed time is 877.846757 seconds.
+03300 93644.094
+Elapsed time is 881.582755 seconds.
+03400 93318.530
+Elapsed time is 881.063492 seconds.
+03500 93228.330
+Elapsed time is 885.011841 seconds.
+03600 92811.981
+Elapsed time is 883.888275 seconds.
+03700 92788.993
+Elapsed time is 882.508292 seconds.
+03800 92654.413
+Elapsed time is 872.628119 seconds.
+03900 92654.413
+Elapsed time is 880.629177 seconds.
+04000 92580.513
+Elapsed time is 875.767995 seconds.
+04100 92580.513
+Elapsed time is 876.833307 seconds.
+04200 92576.120
+Elapsed time is 874.961842 seconds.
+04300 92497.028
+Elapsed time is 876.071714 seconds.
+04400 92497.028
+Elapsed time is 876.124852 seconds.
+04500 92413.114
+Elapsed time is 876.041599 seconds.
+04600 92334.965
+Elapsed time is 874.281183 seconds.
+04700 92297.943
+Elapsed time is 875.534077 seconds.
+04800 92297.943
+Elapsed time is 878.036536 seconds.
+04900 92297.943
+Elapsed time is 876.119409 seconds.
+05000 92297.943
+Elapsed time is 876.173011 seconds.
+05100 92297.943
+Elapsed time is 874.116368 seconds.
+05200 92082.522
+Elapsed time is 877.376249 seconds.
+05300 92082.522
+Elapsed time is 875.119528 seconds.
+05400 91682.248
+Elapsed time is 873.574977 seconds.
+05500 91682.248
+Elapsed time is 874.743851 seconds.
+05600 91682.248
+Elapsed time is 877.396378 seconds.
+05700 91643.553
+Elapsed time is 878.120222 seconds.
+05800 91556.224
+Elapsed time is 875.177775 seconds.
+05900 91556.224
+Elapsed time is 876.501831 seconds.
+06000 91556.224
+Elapsed time is 873.399709 seconds.
+06100 91243.648
+Elapsed time is 876.466720 seconds.
+06200 91243.648
+Elapsed time is 874.447066 seconds.
+06300 91243.648
+Elapsed time is 873.545644 seconds.
+06400 91243.648
+Elapsed time is 875.419213 seconds.
+06500 91243.648
+Elapsed time is 875.255323 seconds.
+06600 91006.251
+Elapsed time is 875.658567 seconds.
+06700 90875.673
+Elapsed time is 872.686598 seconds.
+06800 90833.747
+Elapsed time is 874.929264 seconds.
+06900 90833.747
+Elapsed time is 874.901144 seconds.
+07000 90448.725
+Elapsed time is 875.346966 seconds.
+07100 90448.725
+Elapsed time is 875.749714 seconds.
+07200 90448.725
+Elapsed time is 874.375704 seconds.
+07300 90439.930
+Elapsed time is 873.062465 seconds.
+07400 90439.930
+Elapsed time is 873.863177 seconds.
+07500 90439.930
+Elapsed time is 873.528719 seconds.
+07600 90411.237
+Elapsed time is 875.463450 seconds.
+07700 90411.237
+Elapsed time is 873.629164 seconds.
+07800 90411.237
+Elapsed time is 875.494298 seconds.
+07900 90336.351
+Elapsed time is 872.865298 seconds.
+08000 90336.351
+Elapsed time is 874.824570 seconds.
+08100 90336.351
+Elapsed time is 877.458595 seconds.
+08200 90336.351
+Elapsed time is 872.561108 seconds.
+08300 90336.351
+Elapsed time is 873.671633 seconds.
+08400 90291.215
+Elapsed time is 875.563140 seconds.
+08500 90269.871
+Elapsed time is 876.093542 seconds.
+08600 89957.445
+Elapsed time is 874.269492 seconds.
+08700 89957.445
+Elapsed time is 877.056049 seconds.
+08800 89957.445
+Elapsed time is 873.671373 seconds.
+08900 89834.462
+Elapsed time is 878.359620 seconds.
+09000 89834.462
+Elapsed time is 876.333990 seconds.
+09100 89791.318
+Elapsed time is 875.557961 seconds.
+09200 89670.255
+Elapsed time is 875.896192 seconds.
+09300 89563.573
+Elapsed time is 876.013564 seconds.
+09400 89062.077
+Elapsed time is 876.397271 seconds.
+09500 89062.077
+Elapsed time is 875.824009 seconds.
+09600 89062.077
+Elapsed time is 876.031371 seconds.
+09700 89025.979
+Elapsed time is 875.108521 seconds.
+09800 89025.979
+Elapsed time is 874.465694 seconds.
+09900 89025.979
+Elapsed time is 873.001420 seconds.
+10000 89025.979
+Elapsed time is 876.038130 seconds.
+10100 89025.979
+Elapsed time is 874.500097 seconds.
+10200 89025.979
+Elapsed time is 876.074467 seconds.
+10300 88962.126
+Elapsed time is 875.796206 seconds.
+10400 88947.824
+Elapsed time is 875.837597 seconds.
+10500 88947.824
+Elapsed time is 877.531387 seconds.
+10600 88855.875
+Elapsed time is 876.390257 seconds.
+10700 88757.943
+Elapsed time is 877.455073 seconds.
+10800 88741.856
+Elapsed time is 876.414772 seconds.
+10900 88702.955
+Elapsed time is 875.426987 seconds.
+11000 88702.955
+Elapsed time is 874.370048 seconds.
+11100 88571.525
+Elapsed time is 874.210657 seconds.
+11200 88571.525
+Elapsed time is 875.080219 seconds.
+11300 88495.570
+Elapsed time is 872.950085 seconds.
+11400 88495.570
+Elapsed time is 873.123976 seconds.
+11500 88243.385
+Elapsed time is 874.344588 seconds.
+11600 88243.385
+Elapsed time is 879.398890 seconds.
+11700 88243.385
+Elapsed time is 886.302707 seconds.
+11800 88243.385
+Elapsed time is 886.854492 seconds.
+11900 88135.895
+Elapsed time is 887.186998 seconds.
+12000 87984.049
+Elapsed time is 881.083254 seconds.
+12100 87670.891
+Elapsed time is 881.420831 seconds.
+12200 87670.891
+Elapsed time is 883.497056 seconds.
+12300 87670.891
+Elapsed time is 883.183390 seconds.
+12400 87670.891
+Elapsed time is 880.984573 seconds.
+12500 87203.272
+Elapsed time is 887.912724 seconds.
+12600 87051.664
+Elapsed time is 887.129613 seconds.
+12700 86927.614
+Elapsed time is 877.005003 seconds.
+12800 86927.614
+Elapsed time is 873.953858 seconds.
+12900 86843.207
+Elapsed time is 875.688387 seconds.
+13000 86765.080
+Elapsed time is 872.882313 seconds.
+13100 86659.030
+Elapsed time is 875.037360 seconds.
+13200 86659.030
+Elapsed time is 873.155035 seconds.
+13300 86659.030
+Elapsed time is 872.300170 seconds.
+13400 86659.030
+Elapsed time is 874.569686 seconds.
+13500 86659.030
+Elapsed time is 875.778239 seconds.
+13600 86659.030
+Elapsed time is 874.150950 seconds.
+13700 86659.030
+Elapsed time is 876.626763 seconds.
+13800 86659.030
+Elapsed time is 873.887252 seconds.
+13900 86659.030
+Elapsed time is 874.567818 seconds.
+14000 86659.030
+Elapsed time is 874.425557 seconds.
+14100 86659.030
+Elapsed time is 872.816641 seconds.
+14200 86659.030
+Elapsed time is 875.722255 seconds.
+14300 86659.030
+Elapsed time is 877.020468 seconds.
+14400 86659.030
+Elapsed time is 874.923047 seconds.
+14500 86659.030
+Elapsed time is 891.385368 seconds.
+14600 86659.030
+Elapsed time is 904.795704 seconds.
+14700 86659.030
+Elapsed time is 904.192900 seconds.
+14800 86597.008
+Elapsed time is 905.896345 seconds.
+14900 86535.614
+Elapsed time is 901.658307 seconds.
+15000 86497.074
+Elapsed time is 904.605733 seconds.
+15100 86497.074
+Elapsed time is 905.152301 seconds.
+15200 86497.074
+Elapsed time is 901.076423 seconds.
+15300 86497.074
+Elapsed time is 897.716308 seconds.
+15400 86273.686
+Elapsed time is 898.627276 seconds.
+15500 86168.937
+Elapsed time is 899.921494 seconds.
+15600 86168.937
+Elapsed time is 900.415814 seconds.
+15700 86168.937
+Elapsed time is 900.499899 seconds.
+15800 86168.937
+Elapsed time is 900.170662 seconds.
+15900 86168.937
+Elapsed time is 902.243218 seconds.
+16000 86168.937
+Elapsed time is 892.772381 seconds.
+16100 86168.937
+Elapsed time is 883.360908 seconds.
+16200 86168.937
+Elapsed time is 879.182687 seconds.
+16300 86104.058
+Elapsed time is 880.460125 seconds.
+16400 86104.058
+Elapsed time is 877.259905 seconds.
+16500 86104.058
+Elapsed time is 881.589451 seconds.
+16600 86104.058
+Elapsed time is 882.058261 seconds.
+16700 86104.058
+Elapsed time is 881.701096 seconds.
+16800 86095.960
+Elapsed time is 879.099371 seconds.
+16900 86095.960
+Elapsed time is 880.298043 seconds.
+17000 86095.960
+Elapsed time is 880.109684 seconds.
+17100 86095.960
+Elapsed time is 880.865689 seconds.
+17200 86095.960
+Elapsed time is 879.566643 seconds.
+17300 86095.960
+Elapsed time is 883.561842 seconds.
+17400 86095.960
+Elapsed time is 883.693126 seconds.
+17500 86095.960
+Elapsed time is 881.386751 seconds.
+17600 85958.778
+Elapsed time is 883.277706 seconds.
+17700 85957.739
+Elapsed time is 881.808972 seconds.
+17800 85957.739
+Elapsed time is 880.513754 seconds.
+17900 85853.332
+Elapsed time is 880.800664 seconds.
+18000 85853.332
+Elapsed time is 882.443202 seconds.
+18100 85853.332
+Elapsed time is 885.117640 seconds.
+18200 85716.637
+Elapsed time is 884.374766 seconds.
+18300 85716.637
+Elapsed time is 880.745340 seconds.
+18400 85716.637
+Elapsed time is 881.048667 seconds.
+18500 85624.371
+Elapsed time is 881.699235 seconds.
+18600 85624.371
+Elapsed time is 879.757284 seconds.
+18700 85624.371
+Elapsed time is 880.962034 seconds.
+18800 85624.371
+Elapsed time is 883.063007 seconds.
+18900 85624.371
+Elapsed time is 881.109902 seconds.
+19000 85624.371
+Elapsed time is 882.204509 seconds.
+19100 85624.371
+Elapsed time is 883.259074 seconds.
+19200 85624.371
+Elapsed time is 879.481837 seconds.
+19300 85566.295
+Elapsed time is 879.013131 seconds.
+19400 85558.544
+Elapsed time is 881.681564 seconds.
+19500 85558.544
+Elapsed time is 880.797050 seconds.
+19600 85558.544
+Elapsed time is 881.682947 seconds.
+19700 85558.544
+Elapsed time is 882.201011 seconds.
+19800 85558.544
+Elapsed time is 882.769328 seconds.
+19900 85558.544
+Elapsed time is 883.738931 seconds.
+20000 85558.544
+Elapsed time is 883.131052 seconds.
+20100 85558.544
+Elapsed time is 885.672817 seconds.
+20200 85558.544
+Elapsed time is 883.733727 seconds.
+20300 85558.544
+Elapsed time is 884.226782 seconds.
+20400 85460.122
+Elapsed time is 884.162835 seconds.
+20500 85460.122
+Elapsed time is 880.423573 seconds.
+20600 85346.234
+Elapsed time is 882.201240 seconds.
+20700 85346.234
+Elapsed time is 883.727918 seconds.
+20800 85346.234
+Elapsed time is 883.409720 seconds.
+20900 85346.234
+Elapsed time is 883.816788 seconds.
+21000 85346.234
+Elapsed time is 881.685179 seconds.
+21100 85346.234
+Elapsed time is 883.500903 seconds.
+21200 85346.234
+Elapsed time is 880.807985 seconds.
+21300 85346.234
+Elapsed time is 881.173426 seconds.
+21400 85346.234
+Elapsed time is 879.553455 seconds.
+21500 85346.234
+Elapsed time is 882.217158 seconds.
+21600 85346.234
+Elapsed time is 882.633418 seconds.
+21700 85346.234
+Elapsed time is 884.427668 seconds.
+21800 85224.126
+Elapsed time is 881.186462 seconds.
+21900 85224.126
+Elapsed time is 882.907689 seconds.
+22000 84925.115
+Elapsed time is 880.039910 seconds.
+22100 84925.115
+Elapsed time is 880.042584 seconds.
+22200 84925.115
+Elapsed time is 882.075607 seconds.
+22300 84925.115
+Elapsed time is 880.980787 seconds.
+22400 84925.115
+Elapsed time is 882.340464 seconds.
+22500 84925.115
+Elapsed time is 881.649553 seconds.
+22600 84797.572
+Elapsed time is 880.032755 seconds.
+22700 84737.371
+Elapsed time is 884.242505 seconds.
+22800 84737.371
+Elapsed time is 882.955304 seconds.
+22900 84737.371
+Elapsed time is 879.479657 seconds.
+23000 84737.371
+Elapsed time is 882.201259 seconds.
+23100 84737.371
+Elapsed time is 882.171032 seconds.
+23200 84737.371
+Elapsed time is 879.889167 seconds.
+23300 84589.825
+Elapsed time is 879.372495 seconds.
+23400 84589.825
+Elapsed time is 883.870407 seconds.
+23500 84589.825
+Elapsed time is 881.741094 seconds.
+23600 84589.825
+Elapsed time is 882.550392 seconds.
+23700 84589.825
+Elapsed time is 881.862728 seconds.
+23800 84568.395
+Elapsed time is 880.444235 seconds.
+23900 84568.395
+Elapsed time is 880.026139 seconds.
+24000 84568.395
+Elapsed time is 881.093111 seconds.
+24100 84460.351
+Elapsed time is 879.980366 seconds.
+24200 84460.351
+Elapsed time is 880.468328 seconds.
+24300 84460.351
+Elapsed time is 883.481889 seconds.
+24400 84460.351
+Elapsed time is 883.673461 seconds.
+24500 84460.351
+Elapsed time is 881.692729 seconds.
+24600 84460.351
+Elapsed time is 885.549449 seconds.
+24700 84460.351
+Elapsed time is 885.327477 seconds.
+24800 84460.351
+Elapsed time is 885.048073 seconds.
+24900 84460.351
+Elapsed time is 885.376652 seconds.
+25000 84460.351
+Elapsed time is 880.802077 seconds.
+25100 84460.351
+Elapsed time is 884.080266 seconds.
+25200 84393.847
+Elapsed time is 879.407370 seconds.
+25300 84393.847
+Elapsed time is 879.792575 seconds.
+25400 84393.847
+Elapsed time is 881.742926 seconds.
+25500 84393.847
+Elapsed time is 879.245638 seconds.
+25600 84393.847
+Elapsed time is 877.439960 seconds.
+25700 84363.105
+Elapsed time is 880.220774 seconds.
+25800 84363.105
+Elapsed time is 880.338646 seconds.
+25900 84363.105
+Elapsed time is 878.490311 seconds.
+26000 84177.652
+Elapsed time is 878.117944 seconds.
+26100 84177.652
+Elapsed time is 879.084598 seconds.
+26200 84177.652
+Elapsed time is 879.030578 seconds.
+26300 84177.652
+Elapsed time is 878.751520 seconds.
+26400 84177.652
+Elapsed time is 877.291208 seconds.
+26500 84177.652
+Elapsed time is 877.890043 seconds.
+26600 84177.652
+Elapsed time is 877.362057 seconds.
+26700 84177.652
+Elapsed time is 878.228187 seconds.
+26800 84177.652
+Elapsed time is 880.058281 seconds.
+26900 84177.652
+Elapsed time is 877.263323 seconds.
+27000 84015.432
+Elapsed time is 879.479641 seconds.
+27100 84015.432
+Elapsed time is 877.770122 seconds.
+27200 84015.432
+Elapsed time is 878.035403 seconds.
+27300 84015.432
+Elapsed time is 878.841083 seconds.
+27400 84015.432
+Elapsed time is 880.152936 seconds.
+27500 84015.432
+Elapsed time is 878.747102 seconds.
+27600 83961.014
+Elapsed time is 877.087406 seconds.
+27700 83961.014
+Elapsed time is 881.784925 seconds.
+27800 83961.014
+Elapsed time is 881.336854 seconds.
+27900 83961.014
+Elapsed time is 879.075218 seconds.
+28000 83961.014
+Elapsed time is 879.500729 seconds.
+28100 83961.014
+Elapsed time is 878.104190 seconds.
+28200 83961.014
+Elapsed time is 878.886032 seconds.
+28300 83961.014
+Elapsed time is 878.210512 seconds.
+28400 83908.249
+Elapsed time is 878.976813 seconds.
+28500 83908.249
+Elapsed time is 877.611426 seconds.
+28600 83908.249
+Elapsed time is 880.223432 seconds.
+28700 83908.249
+Elapsed time is 878.783807 seconds.
+28800 83908.249
+Elapsed time is 882.432097 seconds.
+28900 83908.249
+Elapsed time is 880.867600 seconds.
+29000 83908.249
+Elapsed time is 878.573022 seconds.
+29100 83908.249
+Elapsed time is 879.018297 seconds.
+29200 83908.249
+Elapsed time is 881.808039 seconds.
+29300 83908.249
+Elapsed time is 880.369262 seconds.
+29400 83872.647
+Elapsed time is 879.446169 seconds.
+29500 83852.572
+Elapsed time is 879.790974 seconds.
+29600 83852.572
+Elapsed time is 881.555048 seconds.
+29700 83832.531
+Elapsed time is 881.431403 seconds.
+29800 83832.531
+Elapsed time is 878.656346 seconds.
+29900 83832.531
+Elapsed time is 878.785637 seconds.
+30000 83831.425
+Elapsed time is 879.327087 seconds.
+30100 83831.425
+Elapsed time is 879.514806 seconds.
+30200 83831.425
+Elapsed time is 880.424302 seconds.
+30300 83831.425
+Elapsed time is 881.203625 seconds.
+30400 83831.425
+Elapsed time is 880.858958 seconds.
+30500 83831.425
+Elapsed time is 881.393075 seconds.
+30600 83831.425
+Elapsed time is 883.675274 seconds.
+30700 83831.425
+Elapsed time is 879.955468 seconds.
+30800 83831.425
+Elapsed time is 881.551861 seconds.
+30900 83831.425
+Elapsed time is 879.312002 seconds.
+31000 83831.425
+Elapsed time is 880.042645 seconds.
+31100 83831.425
+Elapsed time is 881.210172 seconds.
+31200 83831.425
+Elapsed time is 879.377473 seconds.
+31300 83831.425
+Elapsed time is 880.590784 seconds.
+31400 83831.425
+Elapsed time is 881.774365 seconds.
+31500 83831.425
+Elapsed time is 879.221178 seconds.
+31600 83831.425
+Elapsed time is 880.371736 seconds.
+31700 83831.425
+Elapsed time is 880.688972 seconds.
+31800 83831.425
+Elapsed time is 878.605118 seconds.
+31900 83831.425
+Elapsed time is 880.267352 seconds.
+32000 83831.425
+Elapsed time is 879.713375 seconds.
+32100 83831.425
+Elapsed time is 879.680180 seconds.
+32200 83774.875
+Elapsed time is 883.360064 seconds.
+32300 83774.875
+Elapsed time is 880.536190 seconds.
+32400 83774.875
+Elapsed time is 881.873925 seconds.
+32500 83774.875
+Elapsed time is 880.613981 seconds.
+32600 83774.875
+Elapsed time is 879.544396 seconds.
+32700 83774.875
+Elapsed time is 882.482690 seconds.
+32800 83774.875
+Elapsed time is 881.858780 seconds.
+32900 83774.875
+Elapsed time is 883.007455 seconds.
+33000 83774.875
+Elapsed time is 880.454794 seconds.
+33100 83774.875
+Elapsed time is 879.231303 seconds.
+33200 83774.875
+Elapsed time is 882.843816 seconds.
+33300 83730.836
+Elapsed time is 883.485575 seconds.
+33400 83730.836
+Elapsed time is 881.668216 seconds.
+33500 83730.836
+Elapsed time is 882.072735 seconds.
+33600 83730.836
+Elapsed time is 879.274232 seconds.
+33700 83730.836
+Elapsed time is 880.342641 seconds.
+33800 83730.836
+Elapsed time is 883.475142 seconds.
+33900 83730.836
+Elapsed time is 880.780574 seconds.
+34000 83730.836
+Elapsed time is 881.713869 seconds.
+34100 83597.320
+Elapsed time is 876.166455 seconds.
+34200 83597.320
+Elapsed time is 876.540506 seconds.
+34300 83597.320
+Elapsed time is 876.159972 seconds.
+34400 83597.320
+Elapsed time is 876.970176 seconds.
+34500 83597.320
+Elapsed time is 875.167951 seconds.
+34600 83597.320
+Elapsed time is 877.198501 seconds.
+34700 83597.320
+Elapsed time is 875.928308 seconds.
+34800 83597.320
+Elapsed time is 876.028579 seconds.
+34900 83597.320
+Elapsed time is 875.821543 seconds.
+35000 83597.320
+Elapsed time is 877.622782 seconds.
+35100 83597.320
+Elapsed time is 879.920299 seconds.
+35200 83597.320
+Elapsed time is 876.174647 seconds.
+35300 83597.320
+Elapsed time is 875.871487 seconds.
+35400 83597.320
+Elapsed time is 876.101878 seconds.
+35500 83597.320
+Elapsed time is 878.510671 seconds.
+35600 83597.320
+Elapsed time is 880.534721 seconds.
+35700 83597.320
+Elapsed time is 878.536397 seconds.
+35800 83590.070
+Elapsed time is 877.729196 seconds.
+35900 83590.070
+Elapsed time is 879.088500 seconds.
+36000 83590.070
+Elapsed time is 875.445071 seconds.
+36100 83590.070
+Elapsed time is 875.454401 seconds.
+36200 83590.070
+Elapsed time is 877.661255 seconds.
+36300 83490.162
+Elapsed time is 876.661335 seconds.
+36400 83490.162
+Elapsed time is 877.298828 seconds.
+36500 83490.162
+Elapsed time is 876.901792 seconds.
+36600 83490.162
+Elapsed time is 878.344457 seconds.
+36700 83433.010
+Elapsed time is 876.968167 seconds.
+36800 83433.010
+Elapsed time is 877.592734 seconds.
+36900 83433.010
+Elapsed time is 876.327195 seconds.
+37000 83433.010
+Elapsed time is 876.358530 seconds.
+37100 83433.010
+Elapsed time is 880.905241 seconds.
+37200 83433.010
+Elapsed time is 879.756738 seconds.
+37300 83433.010
+Elapsed time is 877.758214 seconds.
+37400 83433.010
+Elapsed time is 880.873757 seconds.
+37500 83433.010
+Elapsed time is 877.816518 seconds.
+37600 83415.893
+Elapsed time is 875.361729 seconds.
+37700 83415.893
+Elapsed time is 878.756116 seconds.
+37800 83415.893
+Elapsed time is 877.309410 seconds.
+37900 83415.893
+Elapsed time is 876.361181 seconds.
+38000 83415.893
+Elapsed time is 876.687943 seconds.
+38100 83415.893
+Elapsed time is 877.308501 seconds.
+38200 83332.738
+Elapsed time is 878.781348 seconds.
+38300 83332.738
+Elapsed time is 877.135700 seconds.
+38400 83332.738
+Elapsed time is 878.031955 seconds.
+38500 83332.738
+Elapsed time is 875.543692 seconds.
+38600 83245.198
+Elapsed time is 877.198755 seconds.
+38700 83245.198
+Elapsed time is 876.480608 seconds.
+38800 83245.198
+Elapsed time is 877.254596 seconds.
+38900 83245.198
+Elapsed time is 877.073488 seconds.
+39000 83245.198
+Elapsed time is 877.116605 seconds.
+39100 83245.198
+Elapsed time is 877.507968 seconds.
+39200 83245.198
+Elapsed time is 876.687581 seconds.
+slurmstepd: error: *** JOB 14022537 ON c43-04 CANCELLED AT 2020-12-07T08:31:00 DUE TO TIME LIMIT ***

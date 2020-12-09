@@ -1,6 +1,6 @@
 tic();
-sav_data_dir = '~/synopsis_seriation_data/';
-%sav_data_dir = '/beegfs/vl1019/synopsis_seriation_data/';
+%sav_data_dir = '~/synopsis_seriation_data/';
+sav_data_dir = '/beegfs/vl1019/synopsis_seriation_data/';
 data_dir = sav_data_dir;
 mkdir([data_dir, 'permutations']);
 load([data_dir, 'channel_changepoints_entropy-11bit.mat']);
